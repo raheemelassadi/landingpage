@@ -5,6 +5,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    height: 100vh;
 }
 
 /*navbar*/
@@ -46,7 +48,20 @@ ul {
 .hero-content {
     display: flex;
     flex-wrap: wrap;
-    width: 50px;
+}
+
+.hero-left {
+    margin: 0;
+    padding: 0;
+}
+
+.child {
+    flex: 1;
+    padding: 20px 0;
+}
+
+.child.image {
+    margin-left: 30px;
 }
 
 button {
@@ -73,8 +88,8 @@ h1 {
 
 .image {
     background-color: #E5E7EB;
-    width: 500px;
-    height: 200px;
+    width: 600px;
+    height: auto;
     color: #1F2937;
     justify-content: center;
     align-items: center;
