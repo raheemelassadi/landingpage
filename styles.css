@@ -148,3 +148,31 @@ h1 {
     font-size: 15px;
     margin-right: 100px;
 }
+
+h5 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.action {
+    background-color: #3882F6;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 6px;
+    display: flex;
+    color: #F9FAF8;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.action-info {
+    text-align: left;
+    padding: 50px;
+}
+
+.action button{
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: 2px solid white;
+    height: 30px;
+}
